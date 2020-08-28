@@ -1,0 +1,125 @@
+*{
+margin:0;
+padding:0;
+}
+/*--------------------THE NEXT ONE IS FOR HOME HEADERS BAR-------*/
+.Home{
+	
+list-style-type:none;
+text-decoration:none;
+overflow: hidden;
+/*overflo: scroll;*/	
+margin: 0;
+padding: 0;
+font-size:35px;
+background-color: #339900;
+}
+
+
+li {
+float: left;
+
+}
+
+li a {	
+display: block;
+color:white;
+text-align: center;
+padding: 16px 18px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: #333;
+}
+/*--------------------THE NEXT ONE IS FOR NAVIGATION BAR-------*/
+
+.nav {
+float: left;
+-webkit-flex: 0;
+-ms-flex: 0;
+margin: 0;
+padding: 0;
+height:100%;
+}
+nav a {
+display: block;
+color:white;
+text-align: center;
+padding: 16px 18px;
+text-decoration: none;	
+
+background-color: #666;	
+font-size:30px;	
+text-align:left;
+
+}
+nav a:hover {
+background-color: #111;
+}
+.content{
+font-size:30px;
+margin: 0;
+padding: 0;	
+text-align: center;
+}
+article {
+-webkit-flex: 3;
+-ms-flex: 3;
+flex: 3;
+background-color: #f1f1f1;
+padding: 10px;
+}
+input[type=submit] {
+    width: 10em;  height: 2em;
+}
+
+input[type=Reset] {
+    width: 10em;  height: 2em;
+}
+input:hover   {
+background-color: #B5D3E7;
+}
+.First_name{ 
+width:20%;
+padding:10px;
+font-size:20px;
+}
+.Last_name{ 
+width:20%;
+padding:10px;
+font-size:20px;
+}
+.Credential{ 
+width:42%;
+padding:10px;
+font-size:20px;
+}
+.password{ 
+width:42%;
+padding:10px;
+font-size:20px;
+}
+
+.Sign_Up{
+width:20%;
+padding:10px;
+font-size:20px;
+border-radius: 10%;
+background-color: #009900;
+color:white;
+}
+Sign_Up:hover   {
+background-color:#111;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   padding:100px;
+   background-color: #a2c4c9;
+   color: white;
+   text-align: center;
+   border-radius: 25px;
+}
